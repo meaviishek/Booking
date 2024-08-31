@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Travel Booking Platform</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <h2>Find Your Perfect Trip</h2>
+            <form id="searchForm">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" placeholder="Enter destination">
+                
+                <label for="checkInDate">Check-in Date:</label>
+                <input type="date" id="checkInDate">
+                
+                <label for="checkOutDate">Check-out Date:</label>
+                <input type="date" id="checkOutDate">
+                
+                <label for="travelType">Travel Type:</label>
+                <select id="travelType">
+                    <option value="flight">Flight</option>
+                    <option value="hotel">Hotel</option>
+                    <option value="car">Car Rental</option>
+                </select>
+                
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

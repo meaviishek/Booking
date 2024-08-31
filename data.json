@@ -1,0 +1,50 @@
+{
+  "flight": [
+      {
+          "id": "f1",
+          "name": "Flight to Goa",
+          "destination": "Goa",
+          "description": "A comfortable flight to Goa.",
+          "price": 500
+      },
+      {
+          "id": "f2",
+          "name": "Flight to Bihar",
+          "destination": "Bihar",
+          "description": "A comfortable flight to Bihar",
+          "price": 450
+      }
+  ],
+  "hotel": [
+      {
+          "id": "h1",
+          "name": "Hotel California",
+          "destination": "Los Angeles",
+          "description": "A luxurious stay at Hotel California.",
+          "price": 300
+      },
+      {
+          "id": "h2",
+          "name": "New York Plaza",
+          "destination": "New York",
+          "description": "A luxurious stay at New York Plaza.",
+          "price": 350
+      }
+  ],
+  "car": [
+      {
+          "id": "c1",
+          "name": "Car Rental in New York",
+          "destination": "New York",
+          "description": "Rent a car in New York.",
+          "price": 50
+      },
+      {
+          "id": "c2",
+          "name": "Car Rental in Los Angeles",
+          "destination": "Los Angeles",
+          "description": "Rent a car in Los Angeles.",
+          "price": 55
+      }
+  ]
+}
